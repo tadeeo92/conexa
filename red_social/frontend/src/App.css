@@ -1,0 +1,177 @@
+/* === Reset & base === */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f9f9f9;
+  color: #333;
+  line-height: 1.6;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul {
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+/* === Layout === */
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+/* === Navbar === */
+.navbar {
+  background-color: #fff;
+  border-bottom: 1px solid #ddd;
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar a {
+  margin-left: 1rem;
+  font-weight: bold;
+}
+
+/* === Buttons === */
+.btn {
+  padding: 0.5rem 1rem;
+  background-color: #3498db;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.2s ease;
+}
+
+.btn:hover {
+  background-color: #2980b9;
+}
+
+.btn-outline {
+  background-color: transparent;
+  border: 2px solid #3498db;
+  color: #3498db;
+}
+
+.btn-outline:hover {
+  background-color: #3498db;
+  color: white;
+}
+
+/* === Forms === */
+input,
+textarea,
+select {
+  width: 100%;
+  padding: 0.6rem;
+  margin-top: 0.5rem;
+  margin-bottom: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 1rem;
+}
+
+form {
+  max-width: 500px;
+  margin: auto;
+}
+
+/* === Posts === */
+.post {
+  background: white;
+  border: 1px solid #ddd;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  border-radius: 8px;
+}
+
+.post-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 0.5rem;
+}
+
+.post-author {
+  font-weight: bold;
+  color: #2c3e50;
+}
+
+.post-date {
+  font-size: 0.85rem;
+  color: #888;
+}
+
+.post-content {
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+/* === Comments === */
+.comment {
+  margin-left: 1rem;
+  border-left: 2px solid #ddd;
+  padding-left: 1rem;
+  margin-bottom: 0.5rem;
+  color: #444;
+}
+
+/* === Chat === */
+.chat-box {
+  border: 1px solid #ddd;
+  padding: 1rem;
+  border-radius: 8px;
+  height: 400px;
+  overflow-y: auto;
+  background: #fff;
+}
+
+.message {
+  margin-bottom: 0.5rem;
+}
+
+.message.sent {
+  text-align: right;
+  color: #3498db;
+}
+
+.message.received {
+  text-align: left;
+  color: #2c3e50;
+}
+
+/* === Utility === */
+.text-center {
+  text-align: center;
+}
+
+.mt-1 { margin-top: 0.5rem; }
+.mt-2 { margin-top: 1rem; }
+.mt-3 { margin-top: 1.5rem; }
+
+.mb-1 { margin-bottom: 0.5rem; }
+.mb-2 { margin-bottom: 1rem; }
+.mb-3 { margin-bottom: 1.5rem; }
+
+.p-1 { padding: 0.5rem; }
+.p-2 { padding: 1rem; }
+
+.rounded { border-radius: 8px; }
+.shadow { box-shadow: 0 2px 5px rgba(0,0,0,0.1); }
+

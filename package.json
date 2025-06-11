@@ -1,0 +1,16 @@
+{
+  "name": "red_social",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "estructura": "node estructura.js > estructura.txt",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "jsonwebtoken": "^9.0.2"
+  }
+}
